@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-size: cover;
+    height: 100%;
+}
+.header {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000;
+    letter-spacing: 3px;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+p {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #000;
+}
+.shopping {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+}
+h3 {
+    margin-bottom: 30px;
+    font-size: 150%;
+}
+.items, button {
+    padding: 10px 15px;
+    border: 1px solid rgb(212, 212, 202);
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    outline: none;
+}
+button {
+    padding: 10px 25px;
+    background-color: #270a0a;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.items:hover, button:active, .items:active {
+    box-shadow: 3px 3px 3px 3px rgb(45, 146, 84);
+}
+ul {
+    margin-top: 50px;
+    font-size: 150%;
+}
+li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1400px){
+    h1 {
+        font-size: 350%;
+    } 
+    p {
+        padding-bottom: 50px;
+    }
+    .shopping {
+        top: 55%;
+    }
+}
+@media (max-width: 1000px){
+    h1 {
+        font-size: 300%;
+    } 
+    .shopping {
+        top: 60%;
+    }
+}
+@media (max-width: 800px){
+    h1 {
+        font-size: 250%;
+    } 
+    .shopping {
+        top: 63%;
+    }
+}
+
+@media (max-width: 570px){
+    html {
+        height: 80%;
+    }
+    h1 {
+        font-size: 250%;
+    } 
+    .shopping {
+        top: 80%;
+    }
+
+    li {
+        font-size: 100%;
+    }
+    .items, button {
+        padding: 10px 10px;
+        font-size: 100%;    
+    }
+}
